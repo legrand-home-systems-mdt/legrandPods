@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
     :http => 'https://s3.amazonaws.com/development.nuvotechnologies.com/files/libs/iotivity1.3.1.1/iotivity.framework.zip'
   }
   s.vendored_frameworks = 'iotivity.framework'
-  s.dependency 'boost', '~> 1.58.0.1'
+  s.dependency 'boost', '1.58.0.1'
 end
